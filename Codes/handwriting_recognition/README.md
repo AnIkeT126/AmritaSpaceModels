@@ -1,7 +1,5 @@
 # Handwriting words recognition with TensorFlow
-Create a captcha-to-text solution with step-by-step instructions for installing packages, preprocessing data, defining the model architecture, and more.
-
-[In the previous tutorial](https://pylessons.com/tensorflow-ocr-captcha), I showed you how to build a custom TensorFlow model to extract text from captcha images. Step by step, tutorial by tutorial, I am going to more complex things. This tutorial will extend previous tutorials to this one, using [IAM Dataset](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database), which has variable length ground-truth targets.
+This peoject will is done using [IAM Dataset](https://fki.tic.heia-fr.ch/databases/iam-handwriting-database), which has variable length ground-truth targets.
 
 Each sample in this Dataset consists of an image of handwritten text, and the corresponding target is the text string in the image. The IAM dataset is widely used as a benchmark for OCR systems, so this example can be a useful starting point for building your own OCR system.
 
